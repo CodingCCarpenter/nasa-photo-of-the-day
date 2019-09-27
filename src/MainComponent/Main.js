@@ -1,11 +1,12 @@
 import React from "react";
+import { Card, CardText, CardBody, CardTitle, CardImg, Row, Col } from "reactstrap";
 
 function Main({ src, description }) {
   return (
-    <div>
-      <img src={src} alt={src} /> 
-      <p class='img-desc'>{description}</p>
-    </div>
+    <CardBody className='card'>
+      <CardImg src={src} alt={src} /> 
+      <CardText class='img-desc'>{description}</CardText>
+    </CardBody>
   );
 }
 

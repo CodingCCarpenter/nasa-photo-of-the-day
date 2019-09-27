@@ -53,3 +53,8 @@ img{
 .img-desc{
   width: 90%;
 }
+.date-span{
+  font-size: 1.3rem;
+  font-weight: 200rem;
+  color: lightgray;
+}
