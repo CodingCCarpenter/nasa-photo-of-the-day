@@ -5,9 +5,56 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  /* Add background image */
+  background-image: url('https://images.unsplash.com/photo-1516339901601-2e1b62dc0c45?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1, h3 {
+  color: lightgray;
+  font-weight: 400;
+}
+
+h1{
+  font-size: 3.9rem;
+}
+
+h3{
+  font-size: 2rem;
+}
+
+p{
+  color: gray;
+  width: 90%;
+  padding: 1.5rem;
+  text-align: justify;
+}
+.copyright{
+  color: gray;
+}
+.App{
+  width: 80%;
+  margin: auto;
+  padding: 18%;
+}
+
+img{
+  border-radius: 25px;
+  border: 1px solid lightgray;
+}
+.img-desc{
+  width: 90%;
+}
+.date-span{
+  font-size: 1.3rem;
+  font-weight: 200rem;
+  color: lightgray;
 }
